@@ -3,7 +3,7 @@ from torch import nn
 from torch.nn import functional as F
 import numpy as np
 
-from src.dl_models.utils import cross_validation_bagging
+from dl_models.utils import cross_validation_bagging
 
 
 class Pooled_BiLSTM(nn.Module):

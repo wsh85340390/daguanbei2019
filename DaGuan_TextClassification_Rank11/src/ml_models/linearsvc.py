@@ -3,7 +3,7 @@ from sklearn.metrics import f1_score
 from sklearn.model_selection import StratifiedKFold
 from sklearn.svm import LinearSVC
 
-from src.utils.utils import prepare_word_data
+from utils.utils import prepare_word_data
 
 
 def softmax(x):

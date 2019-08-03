@@ -5,7 +5,7 @@ from sklearn.metrics import f1_score
 from sklearn.model_selection import cross_val_score, StratifiedKFold
 import pandas as pd
 
-from src.utils.utils import prepare_word_data
+from utils.utils import prepare_word_data
 
 
 def generate_oof_pred(clf, model_name, granularity='word', num_fold=10, seed=2018, silent=False):

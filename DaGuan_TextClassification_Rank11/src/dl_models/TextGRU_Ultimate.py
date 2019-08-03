@@ -3,7 +3,7 @@ from torch import nn
 from torch.nn import functional as F
 import numpy as np
 
-from src.dl_models.utils import hold_out_test, cross_validation_bagging
+from dl_models.utils import hold_out_test, cross_validation_bagging
 
 
 class TextGRU_Ultimate(nn.Module):

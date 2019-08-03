@@ -3,7 +3,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import f1_score
 from sklearn.model_selection import StratifiedKFold
 
-from src.utils.utils import prepare_word_data
+from utils.utils import prepare_word_data
 
 if __name__ == '__main__':
 
